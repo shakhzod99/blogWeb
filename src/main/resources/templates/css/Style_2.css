@@ -1,0 +1,89 @@
+#navbar ul 
+{
+    display: none;
+    background-color: #ffffff;  /*  Цвет подпунктов меню */
+    /* box-shadow: 1px 1px 15px rgba(0,0,0,0.5); */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25), 0 1px 18px rgba(0,0,0,0.22);
+
+    position: absolute;
+    top: 100%;
+}
+
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar 
+{
+    height: 40px;
+    background-color:  #dddddd;   /*  Цвет самой панель */
+    padding-left: 25px;
+    min-width: 470px;
+}
+
+#navbar li 
+{
+    float: left;
+    position: relative;
+}
+
+#navbar li a 
+{
+    display: block;
+    padding: 7px;/*  */
+    min-width: 100px;
+   
+    color: #6b6b6b;      /* Цвет текста */
+    text-decoration: none;  
+}
+
+
+#UnderNavbar
+{
+    text-align: left;
+    margin-left: 35px;
+    min-height: 40px;
+    width: 280px;
+    
+}
+
+#MainNavbar
+{
+    text-align: center;
+}
+
+#navbar ul li 
+{
+     float: none; 
+     color: #eef0f2;
+     min-width: 200px;
+     
+
+}
+#navbar li:hover 
+{ 
+    background-color: #c6c6c6; /* Цвет наведения меню */
+    
+    min-height: 40px;
+}
+
+#navbar ul li:hover 
+{ 
+    /* background-color: rgba(4, 49, 250, 0.226); */ /* Цвет наведения на внутренние подпункты меню */
+    background-color: #0060c0;
+}
+
+/* #MainNavbar:hover
+{
+    color: white;
+} */
+
+#UnderNavbar:hover
+{
+    color: white;
+    
+}
